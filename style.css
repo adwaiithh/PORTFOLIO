@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #ffffff;
+    background: #f8f7f4;
     color: #111;
 }
 
@@ -91,7 +91,7 @@ header.scrolled .logo{
 
     margin: 120px auto 60px;
 
-    background: #f5f5f5;
+    background: #ece9e3;
 
     border-radius: 25px;
 
@@ -175,6 +175,59 @@ header.scrolled .logo{
     box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
 }
 
+.tools-section{
+
+    padding: 100px 10%;
+}
+
+
+.tools-grid{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    gap: 25px;
+
+    margin-top: 50px;
+}
+
+
+.tool-card{
+
+   background: #f2f1ee;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+
+.tool-card:hover{
+
+    transform: translateY(-5px);
+}
+
+
+.tool-card h3{
+
+    color: #ff7a00;
+
+    margin-bottom: 15px;
+
+    font-size: 22px;
+}
+
+
+.tool-card p{
+
+    color: #444;
+
+    line-height: 1.8;
+}
+
 /* COMMON */
 
 section{
@@ -206,7 +259,7 @@ section{
 
 .about-boxes{
     margin-top: 40px;
-
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 25px;
@@ -215,7 +268,7 @@ section{
 .box{
     padding: 25px;
     border-radius: 15px;
-    background: #f8f8f8;
+    background: #f2f1ee;
     transition: 0.3s;
 }
 
@@ -248,7 +301,7 @@ section{
 
 .skill-box{
 
-    background: #f8f8f8;
+   background: #f2f1ee;
 
     padding: 35px;
 
@@ -297,7 +350,7 @@ section{
 
 .learning-box{
 
-    background: #f8f8f8;
+    background: #f2f1ee;
 
     padding: 35px;
 
@@ -363,7 +416,7 @@ section{
 
     margin: 50px auto 0;
 
-    background: #f8f8f8;
+    background: #f2f1ee;
 
     padding: 35px;
 
@@ -395,7 +448,7 @@ section{
 
 .skill-card{
     padding: 15px 30px;
-    background: #f8f8f8;
+    background: #f2f1ee;
     border-radius: 30px;
     font-weight: 500;
     transition: 0.3s;
@@ -409,13 +462,20 @@ section{
 /* PROJECTS */
 
 .project-container{
+
     display: flex;
-    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 30px;
 }
+
 
 .project-card{
     max-width: 700px;
-    background: #f8f8f8;
+    background: #f2f1ee;
     padding: 35px;
     border-radius: 20px;
     transition: 0.3s;
@@ -441,6 +501,9 @@ section{
     color: #ff7a00;
     font-weight: 600;
 }
+.mini-project-card{
+    margin-top: 30px;
+}
 
 /* CERTIFICATIONS */
 
@@ -451,7 +514,7 @@ section{
 }
 
 .cert-card{
-    background: #f8f8f8;
+    background: #f2f1ee;
     padding: 30px;
     border-radius: 18px;
     transition: 0.3s;
