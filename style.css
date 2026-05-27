@@ -501,6 +501,33 @@ section{
     color: #ff7a00;
     font-weight: 600;
 }
+
+.report-btn{
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 22px;
+
+    background: #ff7a00;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+
+.report-btn:hover{
+
+    transform: translateY(-3px);
+}
 .mini-project-card{
     margin-top: 30px;
 }
@@ -559,25 +586,104 @@ footer{
 @media(max-width: 900px){
 
     .home{
+
         flex-direction: column-reverse;
+
         justify-content: center;
+
         text-align: center;
-        padding-top: 100px;
+
+        padding-top: 120px;
+
+        gap: 40px;
     }
 
+
     .home-text h1{
+
         font-size: 42px;
     }
 
-    .home-image img{
-        width: 280px;
+
+    .home-text h3{
+
+        font-size: 24px;
     }
 
+
+    .home-text p{
+
+        font-size: 15px;
+
+        line-height: 1.8;
+    }
+
+
+
+    /* PROFILE IMAGE */
+
+    .home-image img{
+
+        width: 240px;
+
+        height: 240px;
+
+        object-fit: cover;
+    }
+
+
+
+    /* SOCIAL ICONS */
+
     .social-icons{
+
         justify-content: center;
     }
 
-    .nav-links{
-        gap: 15px;
+
+
+    /* NAVBAR */
+
+    nav{
+
+        padding: 15px 6%;
     }
+
+
+    .nav-links{
+
+        gap: 12px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+
+    .nav-links a{
+
+        font-size: 14px;
+    }
+
+
+
+    /* SECTION SPACING */
+
+    section{
+
+        padding: 80px 7%;
+    }
+
+
+
+    /* CARDS */
+
+    .project-card,
+    .skill-box,
+    .tool-card,
+    .learning-box{
+
+        padding: 28px;
+    }
+
 }
