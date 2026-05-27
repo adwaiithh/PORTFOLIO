@@ -618,6 +618,13 @@ footer{
         line-height: 1.8;
     }
 
+    .home-image img{
+
+    width: 200px;
+
+    height: 200px;
+}
+
 
 
     /* PROFILE IMAGE */
@@ -646,26 +653,36 @@ footer{
 
     nav{
 
-        padding: 15px 6%;
-    }
+    flex-direction: column;
+
+    gap: 15px;
+
+    padding: 20px 5%;
+}
 
 
-    .nav-links{
+.logo{
 
-        gap: 12px;
-
-        flex-wrap: wrap;
-
-        justify-content: center;
-    }
+    font-size: 42px;
+}
 
 
-    .nav-links a{
+.nav-links{
 
-        font-size: 14px;
-    }
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 10px;
+}
 
 
+.nav-links a{
+
+    font-size: 15px;
+}
 
     /* SECTION SPACING */
 
